@@ -1,0 +1,24 @@
+{
+  "name": "phaser-vite-express-skeleton",
+  "version": "1.0.0",
+  "description": "Minimal Phaser 3 game setup with Vite and Express",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server.js",
+    "postinstall": "npm run build"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "phaser": "^3.70.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "vite": "^5.0.0"
+  }
+}
